@@ -1,0 +1,52 @@
+.transaction-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.transaction-form, .transaction-list-section {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="date"], select {
+  padding: 10px;
+  flex: 1;
+  min-width: 120px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.transaction-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transaction-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.transaction-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transaction-info {
+  flex: 1;
+}
+
+.edit-button, .delete-button {
+  margin-left: 10px;
+}

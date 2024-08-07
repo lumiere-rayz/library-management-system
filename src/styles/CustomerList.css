@@ -1,0 +1,51 @@
+.customer-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.customer-form, .customer-list-section {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+input[type="text"], input[type="email"] {
+  padding: 10px;
+  width: calc(33% - 10px);
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.customer-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.customer-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.customer-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customer-name, .customer-email, .customer-phone {
+  flex: 1;
+}
+
+.edit-button, .delete-button {
+  margin-left: 10px;
+}
